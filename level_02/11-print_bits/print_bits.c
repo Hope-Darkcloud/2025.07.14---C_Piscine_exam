@@ -13,9 +13,9 @@ void	print_bits(unsigned char octet){
 
 int main(void)
 {
-    unsigned char n = 2; // Örnek değer
+    unsigned char n = 2;
     print_bits(n);
-    write(1, "\n", 1); // Yeni satır için
+    write(1, "\n", 1);
     return 0;
 }
  
