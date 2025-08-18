@@ -34,11 +34,11 @@ int main(void)
 
     // cycle oui
     a->next = b; b->next = c; c->next = NULL;
-    printf("cycle? %d\n", cycle_detector(a)); // 0
+    printf("cycle ? %d\n", cycle_detector(a)); // 0
 
     // cycle non
     c->next = a;
-    printf("cycle? %d\n", cycle_detector(a)); // 1
+    printf("cycle ? %d\n", cycle_detector(a)); // 1
 
 
     return 0;
